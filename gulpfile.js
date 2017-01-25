@@ -32,8 +32,23 @@ elixir((mix) => {
             'public/build',
         ])
         .sass('app.scss')
+        .sass('auth.scss')
+        .sass('./node_modules/bulma/bulma.sass')
+        .sass('./node_modules/font-awesome/scss/font-awesome.scss')
+        .styles([
+            'public/css/app.css',
+            'public/css/bulma.css',
+        ], 'public/css/app.css', './')
+        .styles([
+            'public/css/auth.css',
+            'public/css/bulma.css',
+        ], 'public/css/auth.css', './')
         .webpack('app.js')
+        .webpack('auth.js')
         .version([
             'public/js', 'public/css',
         ])
+        .copy('node_modules/font-awesome/fonts', 'public/fonts/')
+        .copy('public/fonts', 'public/build/fonts/')
+
 });

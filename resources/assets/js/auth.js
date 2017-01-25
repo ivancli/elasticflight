@@ -12,10 +12,9 @@ require('./bootstrap');
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-import Default from './components/layouts/default.vue'
 
-const elasticFlight = new Vue({
-    el: '#elastic-flight',
+const app = new Vue({
+    el: '#app',
     data: {
         first_name: "",
         last_name: "",
@@ -27,6 +26,5 @@ const elasticFlight = new Vue({
         },
     },
     components: {
-        Default
     }
 });
