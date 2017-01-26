@@ -9450,4 +9450,15 @@ label.panel-block:hover {
 
 /*# sourceMappingURL=bulma.css.map */
 
+@import "https://fonts.googleapis.com/css?family=Indie+Flower";
+
+.nav-item .brand {
+    color: #8ec744;
+    font-size: 24px;
+    font-family: 'Indie Flower', cursive;
+}
+
+.nav-item img {
+    max-height: none;
+}
 /*# sourceMappingURL=app.css.map */

@@ -2,7 +2,9 @@
     <nav class="nav">
         <div class="nav-left">
             <a class="nav-item">
-                <img src="http://bulma.io/images/bulma-logo.png" alt="Bulma logo">
+                <img src="/build/images/logo_icon-60x57.png" alt="Elastic Flight Logo">
+                &nbsp;
+                <strong class="brand">Elastic Flight</strong>
             </a>
         </div>
 
@@ -41,7 +43,7 @@
             </a>
 
             <span class="nav-item">
-      <a class="button" >
+      <a class="button">
         <span class="icon">
           <i class="fa fa-twitter"></i>
         </span>
@@ -62,9 +64,7 @@
 <script>
     export default{
         data(){
-            return {
-
-            }
+            return {}
         },
         mounted: function () {
             console.info("navbar mounted");

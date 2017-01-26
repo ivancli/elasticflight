@@ -1,12 +1,10 @@
 {
-  "css/app.css": "css/app-fd467eb114.css",
-  "css/app.css.map": "css/app-cef63890b2.css.map",
-  "css/auth.css": "css/auth-4604dde67b.css",
-  "css/auth.css.map": "css/auth-2ff701c57d.css.map",
+  "css/app.css": "css/app-882dc57a9e.css",
+  "css/app.css.map": "css/app-89c68a2a77.css.map",
+  "css/auth.css": "css/auth-5af9a9bb3e.css",
+  "css/auth.css.map": "css/auth-c263ec36a5.css.map",
   "css/bulma.css": "css/bulma-72f9e946af.css",
   "css/bulma.css.map": "css/bulma-c3c7331c6e.css.map",
-  "css/font-awesome.css": "css/font-awesome-2ae6bf901e.css",
-  "css/font-awesome.css.map": "css/font-awesome-52b22fef70.css.map",
-  "js/app.js": "js/app-3626d2cfd6.js",
-  "js/auth.js": "js/auth-47bbcaf25f.js"
+  "js/app.js": "js/app-7cb157581e.js",
+  "js/auth.js": "js/auth-7d49beae8f.js"
 }

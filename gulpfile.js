@@ -34,10 +34,10 @@ elixir((mix) => {
         .sass('app.scss')
         .sass('auth.scss')
         .sass('./node_modules/bulma/bulma.sass')
-        .sass('./node_modules/font-awesome/scss/font-awesome.scss')
         .styles([
             'public/css/app.css',
             'public/css/bulma.css',
+            'resources/assets/css/style.css',
         ], 'public/css/app.css', './')
         .styles([
             'public/css/auth.css',
@@ -49,6 +49,8 @@ elixir((mix) => {
             'public/js', 'public/css',
         ])
         .copy('node_modules/font-awesome/fonts', 'public/fonts/')
+        .copy('resources/assets/images', 'public/images/')
         .copy('public/fonts', 'public/build/fonts/')
+        .copy('public/images', 'public/build/images/')
 
 });
